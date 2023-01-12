@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#265DCA"
+    android:backgroundTint="#242BAE"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    tools:context=".About_Fragment">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:background="@drawable/about_bkg"></ImageView>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:background="@color/white"
+            android:text="There are may different people in the world and everybody should be an equals.it doesn't matter if you are deaf and dump,have a disability or not.WE are intelligent and we can all achieve things in different ways.We all have feelings and we are all humans.Just like the variety of colors in a rainbow we make the world interesting for using that Sign Language.\nSo,this is our intention to change that people life and make them confident and to inspired."
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+    </GridLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:background="@drawable/lst"></ImageView>
+    </GridLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Language Recogntions"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textAlignment="center">
+
+    </TextView>
+</LinearLayout>

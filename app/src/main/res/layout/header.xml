@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:padding="1dp"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:gravity="bottom">
+
+    <TextView
+        android:layout_width="276dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/custom_data"
+        android:backgroundTint="#2027AE"
+        android:text="   Sign Language Recognition"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold"></TextView>
+
+</LinearLayout>
